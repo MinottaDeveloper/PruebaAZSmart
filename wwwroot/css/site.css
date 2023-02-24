@@ -1,0 +1,41 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/*
+.autor-home {
+    background-image: url(../images/escritor.jpg);
+}*/
+
+.autor-home > a {
+    margin-top: 10px;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: limegreen;
+    text-decoration:none;
+}
+
+    .autor-home > a:hover {
+       text-decoration: underline;
+       font-weight: bolder;
+    }
+
+input {
+margin-bottom:15px;
+}
